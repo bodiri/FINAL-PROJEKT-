@@ -1,0 +1,172 @@
+
+.hero{
+    background: rgb(255,228,204);
+    background: linear-gradient(90deg, rgba(255,228,204,1) 0%, rgba(255,228,204,1) 42%, rgba(255,228,204,1) 100%);
+
+}
+.nav2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 5px; color: bisque;
+}
+.hero-title{
+
+  font-size: 30px; 
+  color: rgb(239, 5, 5); 
+}
+.hero-text {
+font-size: 20px;
+
+
+}
+.hero-beor {
+ color: orangered;
+  
+  
+  }
+
+.r {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+   
+    cursor: pointer;
+
+
+}
+.container { 
+    width: 1200px;
+margin: 0 auto;
+
+
+}
+.hero-flex {
+    display:flex ;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.popular-flex{
+    display:flex ;
+    align-items: center;
+    flex-direction: center;
+  justify-content: space-between;
+
+}
+
+.popular-item{
+    display:flex ;
+    align-items: center;
+    flex-direction: center;
+  justify-content: space-between;
+  background-color: #EFEFEF;
+}
+.popular{
+padding: 50px;
+padding-bottom: 50px;
+}
+
+
+.header-forwardio{
+flex-direction: row-reverse;
+}
+
+.divato{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+ color: orangered;
+ text-align: center;
+ font-size: 50px;
+ transform: scaleY(1.2)
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.top-flavors {
+    text-align: center;
+    background-color: #ffe4d9;
+    padding: 50px 20px;
+}
+
+.top-flavors h1 {
+    font-size: 2rem;
+    color: #ff7f50;
+    margin-bottom: 20px;
+}
+
+.top-flavors p {
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.flavors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.flavor-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item h3 {
+    color: #ff7f50;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.contact-item p {
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+
+
+
+
+
